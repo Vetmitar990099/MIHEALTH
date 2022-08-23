@@ -1,0 +1,99 @@
+#container {
+    margin: 10px;
+}
+span {
+    color: red;
+}
+.title {
+    color: chartreuse;
+}
+#nav {
+    color: black;
+    text-decoration: none;
+}
+#mainnav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0px;
+    width: 100vw;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+}
+body {
+    background-image: url(tiles.jpeg);
+    background-repeat: repeat;
+    margin: 0px;
+}
+#maintext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+    margin-left: 80px;
+}
+#container {
+    display: flex;
+}
+#aboveandbelow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.breakfast {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img.jpeg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 400px;
+    height: 400px;
+}
+.lunch {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img2.jpeg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 400px;
+    height: 400px;
+}
+.dinner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img3.jpeg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 400px;
+    height: 400px;
+}
+#above {
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#below {
+    background-color: chartreuse;
+    width: 160px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
